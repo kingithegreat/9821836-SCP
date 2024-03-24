@@ -1,7 +1,7 @@
 /* adds background image with linearGradient that covers the whole div */
 #backGroundImages {
     display: flex;    
-    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/scp-images/landingPageImg.jpg');
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../scp-images/landingPageImg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
