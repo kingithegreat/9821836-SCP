@@ -4,4 +4,4 @@
 //     active[j].nextElementSibling.style.maxHeight = null; // Set to null or 0px
 // }
 function showAlert() {
-    alert("YOU ARE NOT AUTHORISED TO VEIW THIS CONTENT"); }
+    alert("YOU ARE NOT AUTHORIZED TO VIEW THIS CONTENT"); }
