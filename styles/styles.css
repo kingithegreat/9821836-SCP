@@ -28,7 +28,7 @@ h2{
 body{
 
     /* background:linear-gradient(rgb(240, 225, 240),white, rgb(240, 225, 240)) */
-    background:linear-gradient(rgb(197, 247, 233),rgb(239, 236, 247),rgb(238, 232, 244) ,rgb(234, 228, 251),rgb(255, 230, 230))
+    background:linear-gradient(rgb(197, 247, 233),rgb(176, 170, 194),rgb(238, 232, 244) ,rgb(210, 197, 245),rgb(251, 234, 234))
    
 }
 #modalBg{
@@ -44,28 +44,35 @@ body{
 #landingPageText{
     font-family: "Trirong", serif ;
     text-align: center;
-    font-size: 30px;
+    font-size: 4vw;
     
 
 animation-name: landingPage;
-animation-duration: 6s;
+animation-duration: 5s;
 }
 
 @keyframes landingPage{
     from {background-color: red;
         border-radius: 10px;
         border: 2px solid white !important;
-        font-size:2.5vw;
+        font-size:4vw;
         filter: blur(8px);
          -webkit-filter: blur(8px);
+         font-family: "Trirong", serif ;
     }
     to {background-color: rgba(255, 255, 0, 0.457);
     border-radius: 10px;
     border: 2px solid white !important;
-    font-size:2vw;
+    font-size:4vw;
+    font-family: "Trirong", serif ;
     }
-    
-
   }
+p{
+    font-size: larger;
+    font-family: "Trirong", serif ;
+}
 
-
+li{
+    font-size: large;
+    font-family: "Trirong", serif ;
+}
