@@ -52,12 +52,19 @@ animation-duration: 6s;
 }
 
 @keyframes landingPage{
-    from {background-color: red;}
+    from {background-color: red;
+        border-radius: 10px;
+        border: 2px solid white !important;
+        font-size:2.5vw;
+        filter: blur(8px);
+         -webkit-filter: blur(8px);
+    }
     to {background-color: rgba(255, 255, 0, 0.457);
     border-radius: 10px;
     border: 2px solid white !important;
     font-size:2.5vw;
     }
+    
 
   }
 
