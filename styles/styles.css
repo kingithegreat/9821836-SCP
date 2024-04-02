@@ -46,26 +46,10 @@ h2{
     font-size: 4vw;
     
 
-    animation-name: landingPage;
-    animation-duration: 8s;
 }
 
-@keyframes landingPage{
-    from {background-color:  rgba(239, 171, 88, 0.885);
-        border-radius: 10px;
-        border: 2px solid white !important;
-        font-size:4vw;
-        filter: blur(8px);
-         -webkit-filter: blur(8px);
-         font-family: "Trirong", serif ;
-    }
-    to {background-color:red;
-    border-radius: 10px;
-    border: 2px solid white !important;
-    font-size:4vw;
-    font-family: "Trirong", serif ;
-    }
-  }
+
+  
 p{
     font-size: larger;
     font-family: "Trirong", serif ;
@@ -74,4 +58,35 @@ p{
 li{
     font-size: large;
     font-family: "Trirong", serif ;
+}
+#images{
+    animation-name: images;
+    animation-duration: 8s;
+
+}
+@keyframes images{
+    from{
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+    to{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
+#alert{
+    animation-name: alert;
+    animation-duration: 4s;
+}
+@keyframes alert{
+    from{
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        background-color: rgb(185, 185, 36);
+        font-size: xx-small;
+    }
+    to{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
 }
