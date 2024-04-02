@@ -44,17 +44,11 @@ h2{
     font-family: "Trirong", serif ;
     text-align: center;
     font-size: 4vw;
-    
-
-}
-
-
-  
+} 
 p{
     font-size: larger;
     font-family: "Trirong", serif ;
 }
-
 li{
     font-size: large;
     font-family: "Trirong", serif ;
@@ -90,12 +84,12 @@ li{
     from{
         filter: blur(8px); /* The text starts out blurred. */
         -webkit-filter: blur(8px); /* For webkit browsers, the text starts out blurred. */
-        background-color: rgb(185, 185, 36); /* The background color starts as a yellowish color. */
         font-size: xx-small; /* The font size starts out very small. */
     }
     to{
         filter: blur(0px); /* The text becomes clear. */
         -webkit-filter: blur(0px); /* For webkit browsers, the text becomes clear. */
+        
     }
 }
 
