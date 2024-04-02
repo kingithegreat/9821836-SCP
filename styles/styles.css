@@ -59,39 +59,47 @@ li{
     font-size: large;
     font-family: "Trirong", serif ;
 }
+/* This section defines an animation for elements with the ID 'images'. */
 #images{
-    animation-name: images;
-    animation-duration: 8s;
-
+    animation-name: images; /* Refers to the keyframes named 'images'. */
+    animation-duration: 8s; /* The animation will take 8 seconds to complete. */
 }
+
+/* These keyframes define the 'images' animation sequence. */
 @keyframes images{
     from{
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
+        filter: blur(8px); /* The image starts out blurred. */
+        -webkit-filter: blur(8px); /* For webkit browsers, the image starts out blurred. */
     }
     to{
-        filter: blur(0px);
-        -webkit-filter: blur(0px);
+        filter: blur(0px); /* The image becomes clear. */
+        -webkit-filter: blur(0px); /* For webkit browsers, the image becomes clear. */
     }
 }
-#alert{
-    font-size: xx-large;
 
-    animation-name: alert;
-    animation-duration: 4s;
+/* This section styles elements with the ID 'alert'. */
+#alert{
+    font-size: xx-large; /* Sets the font size to 'xx-large'. */
+
+    animation-name: alert; /* Refers to the keyframes named 'alert'. */
+    animation-duration: 4s; /* The animation will take 4 seconds to complete. */
 }
+
+/* These keyframes define the 'alert' animation sequence. */
 @keyframes alert{
     from{
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-        background-color: rgb(185, 185, 36);
-        font-size: xx-small;
+        filter: blur(8px); /* The text starts out blurred. */
+        -webkit-filter: blur(8px); /* For webkit browsers, the text starts out blurred. */
+        background-color: rgb(185, 185, 36); /* The background color starts as a yellowish color. */
+        font-size: xx-small; /* The font size starts out very small. */
     }
     to{
-        filter: blur(0px);
-        -webkit-filter: blur(0px);
+        filter: blur(0px); /* The text becomes clear. */
+        -webkit-filter: blur(0px); /* For webkit browsers, the text becomes clear. */
     }
 }
+
+/* This section styles elements with the ID 'bottomDivScp-005'. */
 #bottomDivScp-005{
-    padding-bottom: 190px;
+    padding-bottom: 190px; /* Adds 190 pixels of padding to the bottom of the element. */
 }
