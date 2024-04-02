@@ -75,6 +75,8 @@ li{
     }
 }
 #alert{
+    font-size: xx-large;
+
     animation-name: alert;
     animation-duration: 4s;
 }
@@ -89,4 +91,7 @@ li{
         filter: blur(0px);
         -webkit-filter: blur(0px);
     }
+}
+#bottomDivScp-005{
+    padding-bottom: 190px;
 }
