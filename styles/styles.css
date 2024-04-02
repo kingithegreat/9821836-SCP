@@ -89,7 +89,6 @@ li{
     to{
         filter: blur(0px); /* The text becomes clear. */
         -webkit-filter: blur(0px); /* For webkit browsers, the text becomes clear. */
-        
     }
 }
 
