@@ -91,4 +91,23 @@ li{
         -webkit-filter: blur(0px); /* For webkit browsers, the text becomes clear. */
     }
 }
-
+#modalButton{
+    animation-name: modalButton; 
+    animation-duration: 20s; 
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes modalButton {
+    0%{
+        background-color: rgb(201, 170, 13);
+        color: rgb(0, 0, 0);
+    }
+    50%{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        background-color: red;
+        color: rgb(0, 0, 0);
+    }
+}
