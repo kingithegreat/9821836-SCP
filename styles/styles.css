@@ -37,9 +37,9 @@ h2{
     background:linear-gradient(rgb(241, 239, 247),rgb(253, 243, 243),white,rgb(227, 219, 247),white ,rgb(238, 234, 250),rgb(230, 255, 234))  
 
 }
-#bottomScreen{
-    height:60vh;
-}
+/* #bottomScreen{
+    height:60vh;.
+} */
 #landingPageText{
     font-family: "Trirong", serif ;
     text-align: center;
@@ -59,7 +59,7 @@ li{
     animation-duration: 8s; /* The animation will take 8 seconds to complete. */
 }
 
-/* These keyframes define the 'images' animation sequence. */
+/* These keyframes define the 'images' animation sequence */
 @keyframes images{
     from{
         filter: blur(8px); /* The image starts out blurred. */
@@ -79,7 +79,7 @@ li{
     animation-duration: 4s; /* The animation will take 4 seconds to complete. */
 }
 
-/* These keyframes define the 'alert' animation sequence. */
+
 @keyframes alert{
     from{
         filter: blur(8px); /* The text starts out blurred. */
@@ -92,7 +92,3 @@ li{
     }
 }
 
-/* This section styles elements with the ID 'bottomDivScp-005'. */
-#bottomDivScp-005{
-    padding-bottom: 190px; /* Adds 190 pixels of padding to the bottom of the element. */
-}
