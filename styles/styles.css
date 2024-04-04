@@ -56,7 +56,7 @@ li{
 /* This section defines an animation for elements with the ID 'images'. */
 #images{
     animation-name: images; /* Refers to the keyframes named 'images'. */
-    animation-duration: 8s; /* The animation will take 8 seconds to complete. */
+    animation-duration: 4s; /* The animation will take 8 seconds to complete. */
 }
 
 /* These keyframes define the 'images' animation sequence */
@@ -76,7 +76,7 @@ li{
     font-size: large; /* Sets the font size to 'xx-large'. */
 
     animation-name: alert; 
-    animation-duration: 2s; /* The animation will take 2 seconds to complete. */
+    animation-duration: 1s; /* The animation will take 2 seconds to complete. */
 }
 
 
