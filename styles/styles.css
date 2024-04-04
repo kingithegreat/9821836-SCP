@@ -73,7 +73,7 @@ li{
 
 /* This section styles elements with the ID 'alert'. */
 #alert{
-    font-size: xx-large; /* Sets the font size to 'xx-large'. */
+    font-size: large; /* Sets the font size to 'xx-large'. */
 
     animation-name: alert; /* Refers to the keyframes named 'alert'. */
     animation-duration: 4s; /* The animation will take 4 seconds to complete. */
