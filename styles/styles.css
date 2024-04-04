@@ -92,14 +92,16 @@ li{
     }
 }
 #modalButton{
+    padding: 2em; 
     animation-name: modalButton; 
-    animation-duration: 20s; 
-    animation-timing-function: ease-in-out;
+    animation-duration: 15s; 
+    animation-timing-function: ease-in-out ,
+    ease-in-out; ;
     animation-iteration-count: infinite;
 }
 @keyframes modalButton {
     0%{
-        background-color: rgb(201, 170, 13);
+        background-color: rgb(201, 69, 13);
         color: rgb(0, 0, 0);
     }
     50%{
