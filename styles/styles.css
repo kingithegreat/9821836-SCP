@@ -63,11 +63,11 @@ li{
 @keyframes images{
     from{
         filter: blur(8px); /* The image starts out blurred. */
-        -webkit-filter: blur(8px); /* For webkit browsers, the image starts out blurred. */
+        -webkit-filter: blur(8px); 
     }
     to{
         filter: blur(0px); /* The image becomes clear. */
-        -webkit-filter: blur(0px); /* For webkit browsers, the image becomes clear. */
+        -webkit-filter: blur(0px); 
     }
 }
 
@@ -75,8 +75,8 @@ li{
 #alert{
     font-size: large; /* Sets the font size to 'xx-large'. */
 
-    animation-name: alert; /* Refers to the keyframes named 'alert'. */
-    animation-duration: 4s; /* The animation will take 4 seconds to complete. */
+    animation-name: alert; 
+    animation-duration: 2s; /* The animation will take 2 seconds to complete. */
 }
 
 
